@@ -15906,7 +15906,7 @@ const skills = {
 		multitarget: true,
 		targetprompt: ["伤害来源", "受伤角色"],
 		content() {
-			targets[1].damage(targets[0], "unreal");
+			targets[1].damage(targets[0]);
 		},
 		ai: {
 			result: {
