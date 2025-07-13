@@ -5156,7 +5156,7 @@ const skills = {
 				var targets = result.targets;
 				player.line2(targets, "green");
 				game.delaye();
-				targets[1].damage(targets[0], "unreal");
+				targets[1].damage(targets[0]);
 			}
 		},
 		getUnrealDamageTargets: (player, lists, forced) => {
